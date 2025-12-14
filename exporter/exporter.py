@@ -1,32 +1,66 @@
 import json
-import markdown2
 from lxml import etree
+from exporter.html_template import generate_html
 
 
 def export_report(results, file_path):
-    if file_path.endswith(".json"):
-        with open(file_path, "w") as f:
+    """
+    Export NovoScan results to disk.
+    Supported formats: json, md, html, xml
+    """
+    fmt = file_path.split(".")[-1].lower()
+
+    if fmt == "json":
+        with open(file_path, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=4)
 
-    elif file_path.endswith(".md"):
-        with open(file_path, "w") as f:
-            for r in results:
-                f.write(f"- **{r['name']}** ({r['severity']}): {r['description']}\n")
+    elif fmt == "md":
+        md = "# NovoScan Security Report\n\n"
 
-    elif file_path.endswith(".html"):
-        md = ""
-        for r in results:
-            md += f"- **{r['name']}** ({r['severity']}): {r['description']}\n"
-        html = markdown2.markdown(md)
-        with open(file_path, "w") as f:
+        md += "## Vulnerabilities\n\n"
+        for v in results.get("vulnerabilities", []):
+            md += (
+                f"### {v['name']}\n"
+                f"- Severity: {v['severity']}\n"
+                f"- Port: {v['port']}\n"
+                f"- Service: {v['service']}\n"
+                f"- Impact: {v['impact']}\n"
+                f"- MITRE: {', '.join(v['mitre'])}\n\n"
+            )
+
+        md += "## Attack Chains\n\n"
+        for c in results.get("attack_chains", []):
+            md += (
+                f"### {c['name']}\n"
+                f"- Risk: {c['risk']}\n"
+                f"- Description: {c['description']}\n\n"
+            )
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(md)
+
+    elif fmt == "html":
+        html = generate_html(results)
+        with open(file_path, "w", encoding="utf-8") as f:
             f.write(html)
 
-    elif file_path.endswith(".xml"):
-        root = etree.Element("scan_results")
-        for r in results:
-            v = etree.SubElement(root, "vulnerability")
-            etree.SubElement(v, "name").text = r["name"]
-            etree.SubElement(v, "severity").text = r["severity"]
-            etree.SubElement(v, "description").text = r["description"]
+    elif fmt == "xml":
+        root = etree.Element("novoscan")
+
+        vulns = etree.SubElement(root, "vulnerabilities")
+        for v in results.get("vulnerabilities", []):
+            vuln_el = etree.SubElement(vulns, "vulnerability")
+            for key, value in v.items():
+                etree.SubElement(vuln_el, key).text = str(value)
+
+        chains = etree.SubElement(root, "attack_chains")
+        for c in results.get("attack_chains", []):
+            chain_el = etree.SubElement(chains, "chain")
+            for key, value in c.items():
+                etree.SubElement(chain_el, key).text = str(value)
+
         tree = etree.ElementTree(root)
-        tree.write(file_path, pretty_print=True, encoding="utf-8", xml_declaration=True)
+        tree.write(file_path, encoding="utf-8", xml_declaration=True)
+
+    else:
+        raise ValueError(f"Unsupported export format: {fmt}")

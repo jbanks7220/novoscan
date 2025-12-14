@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/style.css?v=9">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>NovoScan</h1>
+
+<form method="post">
+<input name="target" placeholder="Target">
+<select name="profile">
+<option value="quick">Quick</option>
+<option value="full">Full</option>
+<option value="stealth">Stealth</option>
+</select>
+<button>Scan</button>
+</form>
+
+{% if results %}
+<canvas id="chart"></canvas>
+<script>
+new Chart(document.getElementById("chart"), {
+ type:"doughnut",
+ data:{
+  labels: {{ results | map(attribute='name') | list | tojson }},
+  datasets:[{ data: {{ results | map(attribute='cvss') | list | tojson }} }]
+ }
+});
+</script>
+{% endif %}
+
+</body>
+</html>

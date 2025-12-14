@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NovoScan Web Scanner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>NovoScan Vulnerability Scanner</h1>
+
+<form method="post">
+    <input type="text" name="target" placeholder="Enter target" required>
+
+    <div class="profiles">
+        <button type="submit" name="profile" value="quick">Quick Scan</button>
+        <button type="submit" name="profile" value="full">Full Scan</button>
+        <button type="submit" name="profile" value="stealth">Stealth Scan</button>
+    </div>
+</form>
+
+{% if results %}
+<div class="downloads">
+    <a href="/download/html">HTML</a>
+    <a href="/download/json">JSON</a>
+    <a href="/download/md">Markdown</a>
+    <a href="/download/xml">XML</a>
+</div>
+
+<table>
+    <tr>
+        <th>Port</th>
+        <th>Name</th>
+        <th>Severity</th>
+        <th>CVSS</th>
+        <th>OWASP</th>
+        <th>MITRE</th>
+    </tr>
+
+    {% for p in results %}
+        {% for f in p.findings %}
+        <tr>
+            <td>{{ p.port }}</td>
+            <td>{{ f.name }}</td>
+            <td>{{ f.severity }}</td>
+            <td>{{ f.cvss }}</td>
+            <td>{{ f.owasp }}</td>
+            <td>{{ f.mitre|join(", ") }}</td>
+        </tr>
+        {% endfor %}
+    {% endfor %}
+</table>
+{% endif %}
+
+</body>
+</html>

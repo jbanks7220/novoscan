@@ -1,22 +1,43 @@
-from scanner.port_scanner import scan_ports, detect_services
-from scanner.vuln_checks import run_vulnerability_checks
+from scanner.port_scanner import scan_ports
+from scanner.vuln_checks import check_vulnerabilities
+from scanner.attack_mapper import build_attack_chains
+from utils.helpers import detect_service
 
 
-def run_safe_scan(target):
-    results = []
+def run_safe_scan(target, profile="quick"):
+    # Scan profiles
+    if profile == "quick":
+        ports = [21, 22, 80, 443, 3306, 5432]
+    elif profile == "stealth":
+        ports = [22, 80, 443]
+    else:  # full
+        ports = list(range(1, 1025))
 
-    ports = scan_ports(target)
-    services = detect_services(ports)
+    vulnerabilities = []
 
-    for port, service in services.items():
-        results.append({
-            "name": f"Open Port {port}",
-            "description": f"Service detected: {service}",
-            "severity": "Medium",
-            "cvss": 5.0
-        })
+    open_ports = scan_ports(target, ports)
 
-    vuln_results = run_vulnerability_checks(services)
-    results.extend(vuln_results)
+    print("[DEBUG] Open ports:", open_ports)
 
-    return results
+    for port in open_ports:
+        service = detect_service(target, port)
+
+        print(f"[DEBUG] Scanning port {port} ({service})")
+
+        vulns = check_vulnerabilities(port)
+
+        print(f"[DEBUG] Vulnerabilities found:", vulns)
+
+        for v in vulns:
+            v["port"] = port
+            v["service"] = service
+            vulnerabilities.append(v)
+
+    attack_chains = build_attack_chains(vulnerabilities)
+
+    print("[DEBUG] Attack chains:", attack_chains)
+
+    return {
+        "vulnerabilities": vulnerabilities,
+        "attack_chains": attack_chains
+    }

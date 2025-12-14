@@ -1,0 +1,11 @@
+- **Open Port 21** (Medium): Service detected: FTP
+- **Open Port 22** (Medium): Service detected: SSH
+- **Open Port 80** (Medium): Service detected: HTTP
+- **Open Port 443** (Medium): Service detected: HTTPS
+- **Open Port 3306** (Medium): Service detected: MySQL
+- **Open Port 5432** (Medium): Service detected: PostgreSQL
+- **Open Port 8080** (Medium): Service detected: HTTP-ALT
+- **Outdated Service Detected** (High): FTP may be running outdated software
+- **Outdated Service Detected** (High): HTTP may be running outdated software
+- **Database Service Exposed** (Critical): MySQL service exposed on port 3306
+- **Database Service Exposed** (Critical): PostgreSQL service exposed on port 5432

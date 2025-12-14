@@ -1,32 +1,28 @@
 import socket
 
-COMMON_PORTS = {
-    21: "FTP",
-    22: "SSH",
-    80: "HTTP",
-    443: "HTTPS",
-    3306: "MySQL",
-    5432: "PostgreSQL",
-    8080: "HTTP-ALT"
-}
 
-
-def scan_ports(target):
+def scan_ports(target, ports):
+    """
+    Scan a list of ports and return open ones.
+    """
     open_ports = []
-    for port in COMMON_PORTS:
+
+    try:
+        target_ip = socket.gethostbyname(target)
+    except socket.gaierror:
+        return open_ports
+
+    for port in ports:
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(0.3)
-            if sock.connect_ex((target, port)) == 0:
+            sock.settimeout(0.5)
+
+            result = sock.connect_ex((target_ip, port))
+            if result == 0:
                 open_ports.append(port)
+
             sock.close()
-        except:
-            pass
+        except Exception:
+            continue
+
     return open_ports
-
-
-def detect_services(ports):
-    services = {}
-    for port in ports:
-        services[port] = COMMON_PORTS.get(port, "Unknown Service")
-    return services

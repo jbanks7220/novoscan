@@ -1,0 +1,2544 @@
+[
+    {
+        "name": "Open Port 1",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 5",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 5,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 9",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 9,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 13",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 13,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 17",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 17,
+        "service": "Unknown"
+    },
+    {
+        "name": "Insecure FTP Service",
+        "severity": "High",
+        "description": "FTP transmits credentials in plaintext.",
+        "owasp": "A2",
+        "mitre": [
+            "T1046"
+        ],
+        "port": 21,
+        "service": "Unknown",
+        "cvss": 8.2
+    },
+    {
+        "name": "Open Port 25",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 25,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 29",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 29,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 33",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 33,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 37",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 37,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 41",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 41,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 45",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 45,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 49",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 49,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 53",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 53,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 57",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 57,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 61",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 61,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 65",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 65,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 69",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 69,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 73",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 73,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 77",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 77,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 81",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 81,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 85",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 85,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 89",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 89,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 93",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 93,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 97",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 97,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 101",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 101,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 105",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 105,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 109",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 109,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 113",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 113,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 117",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 117,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 121",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 121,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 125",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 125,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 129",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 129,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 133",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 133,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 137",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 137,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 141",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 141,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 145",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 145,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 149",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 149,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 153",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 153,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 157",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 157,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 161",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 161,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 165",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 165,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 169",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 169,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 173",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 173,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 177",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 177,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 181",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 181,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 185",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 185,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 189",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 189,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 193",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 193,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 197",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 197,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 201",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 201,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 205",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 205,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 209",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 209,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 213",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 213,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 217",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 217,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 221",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 221,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 225",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 225,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 229",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 229,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 233",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 233,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 237",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 237,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 241",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 241,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 245",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 245,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 249",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 249,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 253",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 253,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 257",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 257,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 261",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 261,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 265",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 265,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 269",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 269,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 277",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 277,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 281",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 281,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 285",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 285,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 289",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 289,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 293",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 293,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 297",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 297,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 301",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 301,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 305",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 305,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 309",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 309,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 313",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 313,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 317",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 317,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 321",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 321,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 325",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 325,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 329",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 329,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 333",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 333,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 337",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 337,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 341",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 341,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 345",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 345,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 349",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 349,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 353",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 353,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 357",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 357,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 361",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 361,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 365",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 365,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 369",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 369,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 373",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 373,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 377",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 377,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 381",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 381,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 385",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 385,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 389",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 389,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 393",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 393,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 397",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 397,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 401",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 401,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 405",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 405,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 409",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 409,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 413",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 413,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 417",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 417,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 421",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 421,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 425",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 425,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 429",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 429,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 433",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 433,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 437",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 437,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 441",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 441,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 445",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 445,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 449",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 449,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 453",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 453,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 457",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 457,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 461",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 461,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 465",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 465,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 469",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 469,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 473",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 473,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 477",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 477,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 481",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 481,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 485",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 485,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 489",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 489,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 493",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 493,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 497",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 497,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 501",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 501,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 505",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 505,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 509",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 509,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 513",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 513,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 517",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 517,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 521",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 521,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 525",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 525,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 529",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 529,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 533",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 533,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 537",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 537,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 541",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 541,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 545",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 545,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 549",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 549,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 553",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 553,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 557",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 557,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 561",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 561,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 565",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 565,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 569",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 569,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 573",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 573,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 577",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 577,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 581",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 581,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 585",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 585,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 589",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 589,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 593",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 593,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 597",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 597,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 601",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 601,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 605",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 605,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 609",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 609,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 613",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 613,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 617",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 617,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 621",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 621,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 625",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 625,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 629",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 629,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 633",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 633,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 637",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 637,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 641",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 641,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 645",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 645,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 649",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 649,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 653",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 653,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 657",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 657,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 661",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 661,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 665",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 665,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 669",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 669,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 673",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 673,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 677",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 677,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 681",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 681,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 685",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 685,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 689",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 689,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 693",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 693,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 697",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 697,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 701",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 701,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 705",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 705,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 713",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 713,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 717",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 717,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 721",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 721,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 725",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 725,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 729",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 729,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 733",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 733,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 737",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 737,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 741",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 741,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 745",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 745,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 749",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 749,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 753",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 753,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 757",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 757,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 761",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 761,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 765",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 765,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 769",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 769,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 773",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 773,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 777",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 777,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 781",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 781,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 785",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 785,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 789",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 789,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 793",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 793,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 797",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 797,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 801",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 801,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 805",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 805,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 809",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 809,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 813",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 813,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 817",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 817,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 821",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 821,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 825",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 825,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 829",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 829,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 833",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 833,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 837",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 837,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 841",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 841,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 845",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 845,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 849",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 849,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 853",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 853,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 857",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 857,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 861",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 861,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 865",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 865,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 869",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 869,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 873",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 873,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 877",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 877,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 881",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 881,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 885",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 885,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 889",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 889,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 893",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 893,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 897",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 897,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 901",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 901,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 905",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 905,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 909",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 909,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 913",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 913,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 917",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 917,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 921",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 921,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 925",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 925,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 929",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 929,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 933",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 933,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 937",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 937,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 941",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 941,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 945",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 945,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 949",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 949,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 953",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 953,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 957",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 957,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 961",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 961,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 965",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 965,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 969",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 969,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 973",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 973,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 977",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 977,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 981",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 981,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 985",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 985,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 989",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 989,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 993",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 993,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 997",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 997,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1001",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1001,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1005",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1005,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1009",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1009,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1013",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1013,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1017",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1017,
+        "service": "Unknown"
+    },
+    {
+        "name": "Open Port 1021",
+        "severity": "Low",
+        "description": "Open Unknown service detected",
+        "owasp": "A5",
+        "mitre": [],
+        "cvss": 3.1,
+        "port": 1021,
+        "service": "Unknown"
+    }
+]

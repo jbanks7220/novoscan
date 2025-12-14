@@ -1,8 +1,7 @@
-def cvss_score(level):
-    scores = {
-        "low": 3.1,
-        "medium": 5.4,
-        "high": 8.2,
-        "critical": 9.8
-    }
-    return scores.get(level.lower(), 4.0)
+def calculate_cvss(severity):
+    return {
+        "Low": 3.1,
+        "Medium": 5.6,
+        "High": 8.2,
+        "Critical": 9.8
+    }.get(severity, 0.0)

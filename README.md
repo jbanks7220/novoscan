@@ -84,6 +84,15 @@ Security assessments
 novoscan-vuln-scanner/
 │
 ├── main.py                 # Application entry point
+├──data
+|   └── novoscan.db
+├──reports
+|   ├── example_report.html # Example Report Syntax 
+|   ├── example_report.json
+|   ├── example_report.md
+|   └── example_report.xml
+├──tests
+|   └── test_scanner.py     # Test script for port scanning
 ├── gui/
 │   └── gui_scanner.py      # PyQt5 GUI
 │
